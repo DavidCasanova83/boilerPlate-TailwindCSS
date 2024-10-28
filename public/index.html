@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Start Tailwind</title>
+  <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="flex min-h-screen w-full flex-col items-center justify-center bg-customBlack ">
+  <main class="flex w-80 justify-center rounded-xl bg-customGray hover:shadow-inner hover:shadow-lime-500/50">
+    <!-- Ajout de la balise main pour définir la région principale du contenu -->
+    <div class="h-full w-4/5 py-8 ">
+      <div>
+        <img src="./assets/images/avatar-jessica.jpeg" alt="Profile picture of Jessica Randall"
+          class="m-auto size-20 rounded-full">
+        <!-- Amélioration de la description de l'image pour plus de détails -->
+      </div>
+      <div class="mt-8 text-center text-white">
+        <h1 class="text-xl font-bold">Jessica Randall</h1>
+        <address class="my-2 text-xs font-medium text-lime-500 not-italic">
+          London, United Kingdom
+        </address>
+        <p class="mt-5 text-xs">"Front-end developer and avid reader."</p>
+      </div>
+      <nav aria-label="Social media links">
+        <!-- Utilisation de <nav> avec aria-label pour améliorer la navigation -->
+        <ul class="flex flex-col gap-3.5 pt-5 text-xs">
+          <!-- Utilisation de <ul> pour les listes de liens -->
+          <li>
+            <a href="#"
+              class="block rounded-lg bg-customGrayLight py-2.5 text-center text-xs font-bold hover:bg-lime-500 hover:text-black text-white">
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              class="block rounded-lg bg-customGrayLight py-2.5 text-center font-bold hover:bg-lime-500 text-white  hover:text-black">
+              Frontend Mentor
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              class="block rounded-lg bg-customGrayLight py-2.5 text-center font-bold hover:bg-lime-500 text-white  hover:text-black">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              class="block rounded-lg bg-customGrayLight py-2.5 text-center font-bold hover:bg-lime-500 text-white  hover:text-black">
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              class="block rounded-lg bg-customGrayLight py-2.5 text-center font-bold hover:bg-lime-500 text-white  hover:text-black">
+              Instagram
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </main>
+</body>
+
+</html>
