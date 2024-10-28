@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.design-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.design-overlay:hover {
+  opacity: 0.2;
+}
