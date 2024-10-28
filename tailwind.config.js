@@ -4,11 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'customBlack': '#141414',
-        'customGray': '#1F1F1F',
-        'customGrayLight': '#333333',
-
-
+        'customBackground': '#FAFAFA',
+        'customBackgroundSecondary': '#FFFFFF',
+        'customPrimary': '#18181B',
       },
   },
   },

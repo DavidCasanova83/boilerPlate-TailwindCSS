@@ -18,3 +18,7 @@ Then create a new repo and copy paste the line of code to create a new git link 
 - git commit -m "init git"
 - git push
 
+
+## Add personnalised color with tailwindCSS
+
+For adding specific color custom, add the color on tailwind.config.js
